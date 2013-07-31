@@ -1,6 +1,6 @@
 # specljs-template
 
-A Leiningen template for a basic project including both speclj tests for Clojure and specljs test for ClojureScript.
+A Leiningen template for a project using specljs tests.
 
 ## Usage
 
