@@ -1,4 +1,4 @@
-(defproject specljs/lein-template "0.1"
+(defproject specljs/lein-template "0.1.1"
   :description "A Leiningen template for specljs"
   :url "http://speclj.com"
   :license {:name "MIT License"
