@@ -1,7 +1,7 @@
 (defproject specljs/lein-template "0.1"
   :description "A Leiningen template for specljs"
   :url "http://speclj.com"
-  :license {:name "Eclipse Public License"
-            :url "http://www.eclipse.org/legal/epl-v10.html"}
+  :license {:name "MIT License"
+            :url "http://opensource.org/licenses/MIT"}
   :eval-in-leiningen true)
 
