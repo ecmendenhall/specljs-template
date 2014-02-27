@@ -1,6 +1,6 @@
 (ns {{name}}.core-spec 
-  (:require-macros [specljs.core :refer [describe it should=]])
-  (:require [specljs.core]
+  (:require-macros [speclj.core :refer [describe it should=]])
+  (:require [speclj.core]
             [{{name}}.core]))
 
 (describe "A ClojureScript test"
