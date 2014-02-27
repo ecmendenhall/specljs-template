@@ -25,5 +25,5 @@
              ["src/cljs/{{nested-dirs}}/core.cljs" (render "core.cljs" data)]
              ["spec/cljs/{{nested-dirs}}/core_spec.cljs" (render "spec.cljs" data)]
 
-             ["bin/specljs_runner.js" (render "specljs_runner.js")])))
+             ["bin/speclj" (render "speclj")])))
 
