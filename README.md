@@ -14,13 +14,12 @@ A Leiningen template for a ClojureScript project using speclj.
 
 You should see one failing spec.
 
-Filed are also created for Clojure code.  You can check these with:
+Files are also created for Clojure code.  You can check these with:
 
     lein spec
 
 ## License
 
-Copyright © 2013 Connor Mendenhall
-Copyright © 2014 Micah Martin
+Copyright © 2013 Connor Mendenhall, 2014 Micah Martin
 
 Distributed under the MIT License.
