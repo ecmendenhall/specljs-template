@@ -6,10 +6,10 @@
 
   :dependencies [[org.clojure/clojure "1.6.0"]]
 
-  :profiles {:dev {:dependencies [[org.clojure/clojurescript "0.0-2234"]
-                                  [speclj "3.1.0"]]}}
-  :plugins [[speclj "3.1.0"]
-            [lein-cljsbuild "1.0.3"]]
+  :profiles {:dev {:dependencies [[org.clojure/clojurescript "0.0-3030"]
+                                  [speclj "3.2.0"]]}}
+  :plugins [[speclj "3.2.0"]
+            [lein-cljsbuild "1.0.5"]]
 
   :cljsbuild {:builds        {:dev  {:source-paths   ["src/cljs" "spec/cljs"]
                                      :compiler       {:output-to     "js/{{name}}_dev.js"
