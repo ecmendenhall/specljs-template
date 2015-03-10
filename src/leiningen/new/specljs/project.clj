@@ -23,4 +23,6 @@
               :test-commands {"test" ["phantomjs" "bin/speclj" "js/{{name}}_dev.js"]}}
 
   :source-paths ["src/clj" "src/cljs"]
-  :test-paths ["spec/clj"])
+  :test-paths ["spec/clj"]
+
+  :aliases {"cljs" ["do" "clean," "cljsbuild" "once" "dev"]})
