@@ -8,7 +8,7 @@ p.onConsoleMessage = function (x) {
     fs.write("/dev/stdout", x, "w");
 };
 
-p.injectJs(phantom.args[0]);
+p.injectJs(sys.args[1]);
 
 var result = p.evaluate(function () {
   speclj.run.standard.armed = true;
